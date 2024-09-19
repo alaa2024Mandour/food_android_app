@@ -8,7 +8,7 @@ import com.example.foodapp.databinding.ActivityLogInBinding
 
 class LogInActivity : AppCompatActivity() {
 
-    lateinit var binding : ActivityLogInBinding
+    private lateinit var binding : ActivityLogInBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

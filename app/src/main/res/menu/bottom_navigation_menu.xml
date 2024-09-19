@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/loupe"
+        android:title="@string/browse"
+        android:id="@+id/meals"
+        />
+
+    <item
+        android:icon="@drawable/shopping_cart"
+        android:title="@string/shopping"
+        android:id="@+id/shopping2"
+        />
+
+    <item
+        android:icon="@drawable/food"
+        android:title="@string/meal"
+        android:id="@+id/mealsPalne"
+        />
+
+</menu>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/meals">
+
+    <fragment
+        android:id="@+id/meals"
+        android:name="com.example.foodapp.Meals"
+        android:label="fragment_meals" >
+        <action
+            android:id="@+id/action_meals_to_mealsDetails"
+            app:destination="@id/mealsDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealsDetails"
+        android:name="com.example.foodapp.MealsDetails"
+        android:label="fragment_meals_details"/>
+    <fragment
+        android:id="@+id/shopping2"
+        android:name="com.example.foodapp.Shopping"
+        android:label="fragment_shopping" />
+    <fragment
+        android:id="@+id/mealsPalne"
+        android:name="com.example.foodapp.MealsPalne"
+        android:label="fragment_meals_palne"/>
+</navigation>
